@@ -1,0 +1,50 @@
+body {
+  background-color: #333;
+  max-width: 100%;
+  font-family: 'arial', sans-serif;
+}
+#container {
+  margin: 0 auto;
+  width: 60%;
+  padding: 5%;
+  background-color: #fff;
+  border-radius: 0.1875em;
+}
+#container div {
+  padding: 1%;
+}
+h1 {
+  margin: 0 auto;
+}
+.style {
+	border: 1px solid #333;
+}
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  color: #333;
+}
+input[type="text"], [type="number"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 1%;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+li {
+  font-family: arial;
+  list-style-type: none;
+  padding: 3%;
+}
